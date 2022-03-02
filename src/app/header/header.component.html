@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="nabar-brand align-item-center d-flex">
+        <i style="font-size: 40px; color:white" class="fas fa-shipping-fast">&nbsp;
+        </i>
+      <strong style="font-size: 30px;color: white;" routerLink="/" >FastShop</strong>
+      
+        <div class="form-group">
+          <input class="form-control" type="text" placeholder="Search products ..." >
+          </div>
+          <span class="fas fa-search search-icon"></span>
+        </div>
+        <button class="btn btn-primary" routerLink="/carts">
+        <i style="font-size: 25px; color: white;" class="fas fa-cart-plus"></i>
+        <div style="font-size: 10px;" class="badge bg-danger" >{{totalItems}}</div>
+        </button>
+        </div>
+  </header>
